@@ -195,7 +195,7 @@ body {
   font-weight: 600;
 }
 
-.start_button:hover {w
+.start_button:hover {
   background-color: var(--dark-gray);
 }
 
@@ -262,7 +262,17 @@ body {
   /* gap: 2rem; */
 }
 
+@media screen and (max-width: 640px) {
+  .company_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .company_level {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+}
+
 .explogo {
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
 }
