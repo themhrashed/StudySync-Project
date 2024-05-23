@@ -312,6 +312,12 @@ body {
   margin-top: 1.3rem;
 }
 
+@media screen and (max-width:768px) {
+  .feature_grid{
+      grid-template-columns: repeat(1,1fr);
+  }
+}
+
 .f_card {
   display: flex;
   flex-direction: column;
